@@ -1,0 +1,5 @@
+tareq m 95
+roro f 80
+maria f 90
+ahmad m 30
+

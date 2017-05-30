@@ -1,0 +1,8 @@
+Comedy : Minions  [Sandra Bullock,  Jon Hamm] 91 USA English.
+Comedy : Dumb and Dumber  [Jim Carrey, Jeff Daniels] 107 USA English.
+Action : Entrapment  [Sean Connery, Catherine Zeta‐Jones] 113 USA English.
+Action : The Matrix  [Keanu Reeves, Laurence Fishburne] 120 USA English.
+Movie : Gladiator  [Russell Crowe, Joaquin Phoenix] 155 USA English.
+Rescue : Avatar  [Sam Worthington, Zoe Saldana] 161 USA English.
+Mystery : Harry Potter  [Daniel Radcliffe, Rupert Grint, Emma Watson] 178 UK English.
+Romance : Titanic  [Leonardo DiCaprio, Kate Winslet, Billy Zane] 195 USA English.

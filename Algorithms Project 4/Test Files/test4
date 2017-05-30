@@ -1,0 +1,69 @@
+else:
+									#calculating in which direction we will draw the eclipse that represents a 
+									#relation between the vertex and itself ;
+									#this is simply for looks , and changes nothhing in 
+									#functionality.
+									xfactor = 0;
+									yfactor = 0;
+									
+									if(pos[0]<300 and pos[1] <300):
+										xfactor = -7
+										yfactor = -7
+										
+									if(pos[0]>300 and pos[1]<300):
+										xfactor = +7
+										yfactor = -7
+									if(pos[0]<300 and pos[1] >300):
+										xfactor =  -7
+										yfactor =  +7
+										
+									if(pos[0]>300 and pos[1] >300):
+										xfactor = +7
+										yfactor = +7
+									VertexList.append([GraphicalVertexList[counter1],GraphicalVertexList[counter2],False,pygame.draw.circle(window,(0,0,0),(node[0].centerx +xfactor ,node[0].centery+yfactor),20,1),0])
+									PathList.append(Edge.Edge(VertexList[counter1],VertexList[counter2],answer))
+									VertexList[counter1].add_neighbour(VertexList[counter2])
+									PathList.append(Edge.Edge(VertexList[counter2],VertexList[counter1],answer))
+									VertexList[counter2].add_neighbour(VertexList[counter1])
+									pygame.draw.circle(window, (255,0, 0),node[0].center, 15)#color the end node red again
+									myFont = pygame.font.SysFont("Calibri", 20)
+									myText = myFont.render(node[1], 1, (0,0,0))
+									window.blit(myText,node[0])
+								
+								print PathList
+								
+								
+								
+								
+
+
+else:
+									#calculating in which direction we will draw the eclipse that represents a 
+									#relation between the vertex and itself ;
+									#this is simply for looks , and changes nothhing in 
+									#functionality.
+
+									
+									if(pos[0]<300 and pos[1] <300):
+										xfactor = -7
+										yfactor = -7
+										
+									if(pos[0]>300 and pos[1]<300):
+										xfactor = +7
+										yfactor = -7
+									if(pos[0]<300 and pos[1] >300):
+										xfactor =  -7
+										yfactor =  +7
+										
+									if(pos[0]>300 and pos[1] >300):
+										xfactor = +7
+										yfactor = +7
+									VertexList.append([GraphicalVertexList[counter1],GraphicalVertexList[counter2],True,pygame.draw.circle(window,(0,0,0),(node[0].centerx +xfactor ,node[0].centery+yfactor),20,1),0])
+									PathList.append(Edge.Edge(VertexList[counter1],VertexList[counter2],answer))
+									VertexList[counter1].add_neighbour(VertexList[counter2])
+								pygame.draw.circle(window, (255,0, 0),node[0].center, 15)#color the end node red again
+								window.blit(myText,pygame.draw.circle(window, (255,255,0),(VertexList[-1][3].centerx+2*xfactor,VertexList[-1][3].centery+2*yfactor),7))
+								
+								print VertexList
+								break
+									

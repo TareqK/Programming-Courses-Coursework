@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1447663606 source:/home/haxx/Desktop/DataStructureProject1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1447616388 source:/home/haxx/Desktop/Cursor/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1447656950 source:/home/haxx/Desktop/linkedlist/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1447661781 source:/home/haxx/Desktop/CursorImplementationOfLinkedList/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1447662723 /home/haxx/Desktop/DataStructureProject1/cursor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

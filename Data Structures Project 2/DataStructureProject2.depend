@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1447667638 source:/home/haxx/Desktop/DataStructureProject2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedlist.c"
+
+1447664027 /home/haxx/Desktop/DataStructureProject2/linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

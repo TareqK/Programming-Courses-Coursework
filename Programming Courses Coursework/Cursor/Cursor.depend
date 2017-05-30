@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447616032 source:/home/haxx/Desktop/Cursor/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

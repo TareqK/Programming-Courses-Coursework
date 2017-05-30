@@ -1,0 +1,26 @@
+public class RComedy extends Movie{
+
+
+
+public RComedy()
+{
+
+	super();
+		super.Type=5;
+}
+public RComedy(String name,String Starring ,String Language , String Country, int RunningTime)
+{
+
+super(name,Starring,Language,Country,RunningTime);
+	super.Type=5;
+
+}
+
+@Override
+	public String toString()
+
+	{
+		return("Romance Comedy :" +Name+ " "+ Starring+" "+RunningTime+" "+Country+" "+Language);
+	}
+
+}
