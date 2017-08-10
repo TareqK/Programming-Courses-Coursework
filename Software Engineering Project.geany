@@ -20,13 +20,16 @@ indent_mode=2
 [project]
 name=Software Engineering Project
 base_path=/home/haxx/projects/Software Engineering Project/
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
+current_page=1
+FILE_NAME_0=1163;Python;0;EUTF-8;1;1;0;%2Fhome%2Fhaxx%2FDesktop%2Ftest.py;0;4
+FILE_NAME_1=0;LaTeX;0;EUTF-8;1;1;0;%2Fhome%2Fhaxx%2Fprojects%2FSoftware%20Engineering%20Project%2FPhase1.tex;0;4
 
 [VTE]
 last_dir=/home/haxx
