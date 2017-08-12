@@ -1,4 +1,4 @@
-\contentsline {section}{Version Histroy}{3}
+\contentsline {section}{Version History}{3}
 \contentsline {section}{\numberline {1}Introduction}{4}
 \contentsline {subsection}{\numberline {1.1}State of the Customer}{4}
 \contentsline {subsection}{\numberline {1.2}Current Problems}{4}
@@ -10,5 +10,5 @@
 \contentsline {section}{\numberline {3}Use Cases}{9}
 \contentsline {subsection}{\numberline {3.1}Use Case Diagram }{9}
 \contentsline {subsection}{\numberline {3.2}Use Case Specification}{11}
-\contentsline {subsubsection}{\numberline {3.2.1}Give Perscription}{11}
+\contentsline {subsubsection}{\numberline {3.2.1}Give Prescription}{11}
 \contentsline {subsubsection}{\numberline {3.2.2}Report to Doctor}{12}

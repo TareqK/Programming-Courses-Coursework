@@ -18,10 +18,10 @@
 \newpage 
 
 \begin{versionhistory}
-\addcontentsline{toc}{section}{Version Histroy}
+\addcontentsline{toc}{section}{Version History}
   \vhEntry{1.0}{30.07.17}{TK|AS|DAS|AB}{Created}
   \vhEntry{1.1}{12.08.17}{AS}{Fixed use case diagram}
-  \vhEntry{1.1}{12.08.17}{TK}{Added use case specification for "Give Perscription" and "Report to Doctor"}
+  \vhEntry{1.1}{12.08.17}{TK}{Added use case specification for "Give Prescription" and "Report to Doctor"}
   \vhEntry{1.1}{12.08.17}{TK}{Changed order of "Use Cases" subsections}
 \end{versionhistory}
 \newpage
@@ -244,7 +244,7 @@ view all bills, and see all stocks.
 \end{figure}
 \newpage 
 \subsection{Use Case Specification}
-\subsubsection{Give Perscription}
+\subsubsection{Give Prescription}
 \begin{itemize}
 		\item Primary Actors : 
 			\begin{enumerate}
@@ -258,14 +258,14 @@ view all bills, and see all stocks.
 			\end{enumerate}
 		\item Basic Flow of Events :
 			\begin{enumerate}
-				\item The Doctor selects the "Add Perscription" option.
-				\item The System shows a new perscription form.
-				\item The Doctor selects the drug, the ammount and enters his special notes.
+				\item The Doctor selects the "Add Prescription" option.
+				\item The System shows a new prescription form.
+				\item The Doctor selects the drug, the amount and enters his special notes.
 				\item The Doctor selects "Add".
 				\item The Systems checks if the patient has any allergies to the selected medicine.
-				\item The Systems checks if the patient has any outstanding perscriptions for the selected medicine.
-				\item The System adds a new perscription for this patient.
-				\item The System Prints a copy of the perscription for the patient. 
+				\item The Systems checks if the patient has any outstanding prescriptions for the selected medicine.
+				\item The System adds a new prescription for this patient.
+				\item The System Prints a copy of the prescription for the patient. 
 			\end{enumerate}
 		\item Alternative Flows :
 			\begin{enumerate}
@@ -276,12 +276,12 @@ view all bills, and see all stocks.
 				\item The Patient has an allergy to the selected medicine :
 					\begin{enumerate}
 						\item A Message is displayed saying "Patient has allergy, Please check selected medicine"
-						\item The System returns to the "Add Perscription" form.
+						\item The System returns to the "Add Prescription" form.
 					\end{enumerate}
-				\item The Patient has an outstanding perscription for the selected medicine :
+				\item The Patient has an outstanding prescription for the selected medicine :
 					\begin{enumerate}
-						\item A Message is displayed saying "Patient has outstanding perscriptions, Please check selected medicine" . 
-						\item The System returns to the "Add Perscription" form.
+						\item A Message is displayed saying "Patient has outstanding prescriptions, Please check selected medicine" . 
+						\item The System returns to the "Add Prescription" form.
 					\end{enumerate}
 			\end{enumerate}
 \end{itemize}
