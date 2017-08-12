@@ -1,0 +1,22 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+1.0
+ & 30.07.17
+ & \listset {TK|AS|DAS|AB}
+ & Created\\
+1.1
+ & 12.08.17
+ & \listset {AS}
+ & Fixed use case diagram\\
+1.1
+ & 12.08.17
+ & \listset {TK}
+ & Added use case specification for "Give Prescription" and "Report to Doctor"\\
+1.1
+ & 12.08.17
+ & \listset {TK}
+ & Changed order of "Use Cases" subsections\\
+\end {longtable}
