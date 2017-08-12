@@ -23,7 +23,9 @@
 \end{enumerate}
 \subsection*{Version 0.1.1}
 \begin{enumerate}
+	\item change use case chapter order.
 	\item Fixed use case diagram.
+	\item Added use case specification, detailed the uses cases "give perscription" and  "report to doctor"
 \end{enumerate}
 \newpage
 \section{Introduction}
@@ -232,16 +234,91 @@ view all bills, and see all stocks.
 	\item The system must have integrated VOIP and Pager capability. 
 \end{enumerate}
 \newpage
-\section{Use Case Diagram}
+\section{Use Cases}
+\subsection{Use Case Diagram }
 \begin{figure}[h!]
 \centering
-  \includegraphics[width=15cm]{hospitalDiagram1.pdf}
+  \includegraphics[width=14.5cm]{hospitalDiagram1.pdf}
 \end{figure}
 \newpage
 \begin{figure}[h!]
 \centering
-  \includegraphics[width=15cm]{hospitalDiagram-2.pdf}
+  \includegraphics[width=14.5cm]{hospitalDiagram-2.pdf}
 \end{figure}
+\newpage 
+\subsection{Use Case Specification}
+\subsubsection{Give Perscription}
+\begin{itemize}
+		\item Primary Actors : 
+			\begin{enumerate}
+				\item Doctor
+				\item Patient
+			\end{enumerate}
+		\item Preconditions :
+			\begin{enumerate}
+				\item Patient has an account on the system.
+				\item Doctor is logged on and has a selected a patient file.
+			\end{enumerate}
+		\item Basic Flow of Events :
+			\begin{enumerate}
+				\item The Doctor selects the "Add Perscription" option.
+				\item The System shows a new perscription form.
+				\item The Doctor selects the drug, the ammount and enters his special notes.
+				\item The Doctor selects "Add".
+				\item The Systems checks if the patient has any allergies to the selected medicine.
+				\item The Systems checks if the patient has any outstanding perscriptions for the selected medicine.
+				\item The System adds a new perscription for this patient.
+				\item The System Prints a copy of the perscription for the patient. 
+			\end{enumerate}
+		\item Alternative Flows :
+			\begin{enumerate}
+				\item The Doctor selects "Cancel" : 
+					\begin{enumerate}
+						\item The system goes back to the patient file.
+					\end{enumerate}
+				\item The Patient has an allergy to the selected medicine :
+					\begin{enumerate}
+						\item A Message is displayed saying "Patient has allergy, Please check selected medicine"
+						\item The System returns to the "Add Perscription" form.
+					\end{enumerate}
+				\item The Patient has an outstanding perscription for the selected medicine :
+					\begin{enumerate}
+						\item A Message is displayed saying "Patient has outstanding perscriptions, Please check selected medicine" . 
+						\item The System returns to the "Add Perscription" form.
+					\end{enumerate}
+			\end{enumerate}
+\end{itemize}
+
+\subsubsection{Report to Doctor}
+\begin{itemize}
+		\item Primary Actors : 
+			\begin{enumerate}
+				\item Nurse
+				\item Doctor
+			\end{enumerate}
+		\item Preconditions :
+			\begin{enumerate}
+				\item Patient is assigned to the nurse and the doctor.
+				\item Nurse has logged in and selected the Patient's file.
+			\end{enumerate}
+		\item Basic Flow of Events :
+			\begin{enumerate}
+				\item Nurse selects the "Create Patient Report" option.
+				\item The System shows a new report form.
+				\item The Nurse enters the patient vitals, status, and her notes.
+				\item The Nurse selects the "Send Report" option.
+				\item The System adds the time and date to the report.
+				\item The System adds the report to the patient file.
+				\item The System notifies the doctor that he has an unseen report.	
+			\end{enumerate}
+		\item Alternative Flows :
+			\begin{enumerate}
+				\item The Nurse selects "Cancel" : 
+					\begin{enumerate}
+						\item The system goes back to the patient file.
+					\end{enumerate}
+			\end{enumerate}
+\end{itemize}
 
 
 \end{document}
