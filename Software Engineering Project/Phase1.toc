@@ -1,4 +1,4 @@
-\contentsline {section}{Changelog}{3}
+\contentsline {section}{Version Histroy}{3}
 \contentsline {section}{\numberline {1}Introduction}{4}
 \contentsline {subsection}{\numberline {1.1}State of the Customer}{4}
 \contentsline {subsection}{\numberline {1.2}Current Problems}{4}
