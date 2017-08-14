@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage{vhistory}
 
-\title{Software Engineering project Phase 1\\Hospital Management System}
+\title{Software Engineering Project\\Hospital Management System}
 \author{Tareq Kirresh(TK),Alaa Shuqair(AS), Dua Abu Safiah(DAS), Ashjan Bakri(AB)}
 \begin{document}
 \begin{figure}
@@ -19,10 +19,13 @@
 
 \begin{versionhistory}
 \addcontentsline{toc}{section}{Version History}
-  \vhEntry{1.0}{30.07.17}{TK|AS|DAS|AB}{Created}
-  \vhEntry{1.1}{12.08.17}{AS}{Fixed use case diagram}
-  \vhEntry{1.1}{12.08.17}{TK}{Added use case specification for "Give Prescription" and "Report to Doctor"}
-  \vhEntry{1.1}{12.08.17}{TK}{Changed order of "Use Cases" subsections}
+  \vhEntry{1.0}{30.07.17}{TK|AS|DAS|AB}{Created.}
+  \vhEntry{1.1}{12.08.17}{TK}{Added version history.}
+  \vhEntry{1.1}{12.08.17}{AS}{Fixed use case diagram.}
+  \vhEntry{1.1}{12.08.17}{TK}{Added use case specification for "Give Prescription" and "Report to Doctor".}
+  \vhEntry{1.1}{12.08.17}{TK|DAS}{Changed order of "Use Cases" subsections.}
+  \vhEntry{1.1}{14.08.17}{AS|AB}{Created Sequence Diagram for main flow of use case "Report to Doctor".}
+  \vhEntry{1.1}{14.08.17}{DAS|AB}{Created Concepteual Class Diagram.}
 \end{versionhistory}
 \newpage
 \section{Introduction}
@@ -234,13 +237,15 @@ view all bills, and see all stocks.
 \section{Use Cases}
 \subsection{Use Case Diagram }
 \begin{figure}[h!]
-\centering
-  \includegraphics[width=14.5cm]{hospitalDiagram1.pdf}
+\centering{}
+  \caption{Use Case Diagram}
+  \includegraphics[width=14.3cm]{hospitalDiagram1.pdf}
 \end{figure}
 \newpage
 \begin{figure}[h!]
-\centering
-  \includegraphics[width=14.5cm]{hospitalDiagram-2.pdf}
+\centering 
+  \caption{Use Case Diagram(conts.)}
+  \includegraphics[width=14.3cm]{hospitalDiagram-2.pdf}
 \end{figure}
 \newpage 
 \subsection{Use Case Specification}
@@ -316,6 +321,20 @@ view all bills, and see all stocks.
 					\end{enumerate}
 			\end{enumerate}
 \end{itemize}
+\newpage
+\begin{figure}[h!]
+\centering
+  \caption{Sequence Diagram for Report to Doctor}
+  \includegraphics[width=14.5cm]{sequenceDiagram.pdf}
+\end{figure}
+
+\newpage 
+\section{Class Diagrams}
+\begin{figure}[h!]
+\centering 
+  \caption{Conceptual Class Diagram}
+  \includegraphics[width=14.5cm]{ConceptualClassDiagram.png}
+\end{figure}
 
 
 \end{document}

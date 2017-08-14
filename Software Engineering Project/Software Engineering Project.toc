@@ -12,3 +12,4 @@
 \contentsline {subsection}{\numberline {3.2}Use Case Specification}{11}
 \contentsline {subsubsection}{\numberline {3.2.1}Give Prescription}{11}
 \contentsline {subsubsection}{\numberline {3.2.2}Report to Doctor}{12}
+\contentsline {section}{\numberline {4}Class Diagrams}{14}

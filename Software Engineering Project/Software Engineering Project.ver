@@ -6,17 +6,29 @@
 1.0
  & 30.07.17
  & \listset {TK|AS|DAS|AB}
- & Created\\
+ & Created.\\
+1.1
+ & 12.08.17
+ & \listset {TK}
+ & Added version history.\\
 1.1
  & 12.08.17
  & \listset {AS}
- & Fixed use case diagram\\
+ & Fixed use case diagram.\\
 1.1
  & 12.08.17
  & \listset {TK}
- & Added use case specification for "Give Prescription" and "Report to Doctor"\\
+ & Added use case specification for "Give Prescription" and "Report to Doctor".\\
 1.1
  & 12.08.17
- & \listset {TK}
- & Changed order of "Use Cases" subsections\\
+ & \listset {TK|DAS}
+ & Changed order of "Use Cases" subsections.\\
+1.1
+ & 14.08.17
+ & \listset {AS|AB}
+ & Created Sequence Diagram for main flow of use case "Report to Doctor".\\
+1.1
+ & 14.08.17
+ & \listset {DAS|AB}
+ & Created Concepteual Class Diagram.\\
 \end {longtable}
