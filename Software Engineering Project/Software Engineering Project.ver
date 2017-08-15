@@ -14,7 +14,7 @@
 1.1
  & 12.08.17
  & \listset {AS}
- & Fixed use case diagram.\\
+ & Fixed "use case diagram".\\
 1.1
  & 12.08.17
  & \listset {TK}
@@ -30,5 +30,13 @@
 1.1
  & 14.08.17
  & \listset {DAS|AB}
- & Created Concepteual Class Diagram.\\
+ & Created "Concepteual Class Diagram".\\
+1.1
+ & 15.08.17
+ & \listset {TK}
+ & Added Section "Classes".\\
+1.1
+ & 15.08.17
+ & \listset {TK}
+ & Added Image Captions.\\
 \end {longtable}
