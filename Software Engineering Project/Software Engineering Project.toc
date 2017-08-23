@@ -13,3 +13,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Give Prescription}{11}
 \contentsline {subsubsection}{\numberline {3.2.2}Report to Doctor}{12}
 \contentsline {section}{\numberline {4}Classes}{14}
+\contentsline {section}{\numberline {5}Architechture}{15}
+\contentsline {subsection}{\numberline {5.1}Deployment Diagram}{15}
+\contentsline {subsection}{\numberline {5.2}Architechture Layer Diagram}{16}
+\contentsline {subsection}{\numberline {5.3}System Block Diagram}{17}

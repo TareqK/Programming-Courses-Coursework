@@ -39,4 +39,16 @@
  & 15.08.17
  & \listset {TK}
  & Added Image Captions.\\
+1.2
+ & 22.08.17
+ & \listset {DAS}
+ & Added Deployment Diagram.\\
+1.2
+ & 22.08.17
+ & \listset {AS}
+ & Architechture Layer Diagram.\\
+1.2
+ & 23.08.17
+ & \listset {TK|AB}
+ & Added Block Diagram.\\
 \end {longtable}
