@@ -63,21 +63,21 @@ something machine readable.
 A Very important aspect of a program is to be readable. This
 began with high-level languages. A Programming Language must provide
 *abstraction* as 
-..*Data Abstraction :
+Data Abstraction :
 		
 	Which means giving variables and such names.
 	
-	..*Simple : such as "iteger" or "int" or "char" 
-	..*Structured : such as arrays or strings
+	Simple : such as "iteger" or "int" or "char" 
+	Structured : such as arrays or strings
    		
-..*Control Abstraction :
+Control Abstraction :
 
 	Which means clarifying operations.
 		
-	..*Simple : Such as the Assignment Statement "=" or ":"
-	..*Structured : which is divided to a group of instruction
-			or assignment statementsSuch as "if/else",
-				"for", "while", Block statements. 
+	Simple : Such as the Assignment Statement "=" or ":"
+	Structured : which is divided to a group of instruction
+		     or assignment statementsSuch as "if/else",
+   		     "for", "while", Block statements. 
 
 For a  more percise and complete defenition of programming languages, instead of a
 variable defenition, A Programming language can be divided into 2 parts:
