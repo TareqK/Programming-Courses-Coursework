@@ -1,6 +1,6 @@
 # Reaons to study Programming Language Concepts
 
-1.To increase the ability to learn new languages
+1. To increase the ability to learn new languages
 
 2. Knowing the structure of a programming language makes it easier to understand.
 
